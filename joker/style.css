@@ -1,0 +1,94 @@
+#root{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+input{
+    margin: 10px;
+    width:60%;
+    height: 30px;
+}
+#simboli{
+    width: 100%;
+}
+
+#simboli > div{
+    display: inline-block;
+    vertical-align: top;
+    width: 16%;
+}
+
+#simboli > div img{
+    width: 100%;
+}
+
+#ciklusi{
+    width: 456px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.polje, .provera{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    vertical-align: top;
+    margin: 5px 2.5px; 
+}
+
+.provera{
+    border-radius: 25px;
+}
+
+.polje {
+    text-align: center;
+}
+
+.polje img{
+    width: 90%;
+    height: 90%;
+    margin-top:5%;
+}
+
+#resenje{
+    width: 370px;
+    margin: auto;
+}
+
+#resenje > div {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    float:left;
+    border:1px solid gray;
+    text-align: center;
+    line-height:80px;
+}
+
+#resenje > div img {
+    width: 90%;
+    height: 90%;
+    margin-top:5%;
+}
+
+button{
+    float: none;
+    clear: both;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
